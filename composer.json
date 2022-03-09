@@ -1,0 +1,25 @@
+{
+    "name": "zhonglang/design-patterns-php",
+    "description": "Sample code for serveral design patterns in PHP",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zhonglang\\DesignPatternsPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ZhongLang",
+            "email": "zhonglang0321@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
